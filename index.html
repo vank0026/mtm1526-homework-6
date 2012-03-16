@@ -1,0 +1,78 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Form Usability</title>
+	<link href="css/general.css" rel="stylesheet">
+</head>
+<body>
+	
+    <h1>Form to Validate with AJAX</h1>
+    
+	<form>
+		
+		<div>
+			<label for="username">Username:</label>
+			<input id="username"> <span class="status"></span>
+		</div>
+        
+		<div>
+			<label for="email">Email Address:</label>
+			<input type="email" id="email" name="email"> <span class="emailstatus"></span>
+		</div>
+        
+        <div>
+            <fieldset>
+            <legend>What Country?:</legend>
+                <label for="ca" >Canada</label>
+                <input type="radio" id="canada" name="country" class="ajax-in1">
+                <label for="us">USA</label>
+                <input type="radio" id="usa" name="country" class="ajax-in2">
+            </fieldset>
+        </div>
+        
+        <div class="fill-me"></div>
+        
+  		<div>
+			<label for="city">City:</label>
+			<input id="city" class="city">
+			<span class="city-reqs">
+				<span class="req-city"> </span>
+			</span>
+		</div>
+
+
+		<div>
+			<label for="password">Password:</label>
+			<input type="password" id="password">
+			<ul class="pass-reqs">
+				<li class="req-length"> At least 6 characters long</li>
+				<li class="req-low"> 1 lower case letter</li>
+				<li class="req-up"> 1 upper case letter</li>
+				<li class="req-num"> 1 number</li>
+				<li class="req-spec"> 1 special character</li>
+			</ul>
+		</div>
+
+		<button type="submit">Submit</button>
+	</form>
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+	<script src="js/forms.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

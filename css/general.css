@@ -1,0 +1,118 @@
+html {
+	background-color:#999999;
+}
+
+body {
+
+	margin:0;
+	padding: 0;
+	color: #555;
+	font-family:Tahoma, Geneva, sans-serif;
+
+}
+
+h1 {
+	margin: .5em auto;
+	text-align:center;
+	font-size:60px;
+	color: #7F7F7F;
+	-moz-text-shadow: 3px 2px 5px #FFF, -3px -2px 5px #000;
+	-ms-text-shadow: 3px 2px 5px #FFF, -3px -2px 5px #000;
+	-o-text-shadow: 3px 2px 5px #FFF, -3px -2px 5px #000;
+	-webkit-text-shadow: 3px 2px 5px #FFF, -3px -2px 5px #000;
+	text-shadow: 3px 2px 5px #FFF, -3px -2px 5px #000;
+
+}
+
+form {
+	
+	margin: 2em auto;
+	padding: 2em;
+	width:35em;
+	
+	font-size:20px;
+
+	background-color: #fff;
+	
+	-o-box-shadow: 0 2px 5px rgba(0,0,0,0.6);
+	-ms-box-shadow: 0 2px 5px rgba(0,0,0,0.6);
+	-moz-box-shadow: 0 2px 5px rgba(0,0,0,0.6);
+	-webkit-box-shadow: 0 2px 5px rgba(0,0,0,0.6);
+	box-shadow: 0 2px 5px rgba(0,0,0,0.6);
+
+}
+
+div {
+	margin-bottom:1em;
+	margin-left:4em;
+}
+
+.status {
+	font-weight: bold;
+	font-size: 1.25em;
+}
+
+.emailstatus {
+	font-weight: bold;
+	font-size: 1.25em;
+}
+
+.emailunavailable {
+	color: #f33;
+}
+
+.emailavailable {
+	color: #393;
+}
+
+
+.unavailable {
+	color: #f33;
+}
+
+.available {
+	color: #393;
+}
+
+.pass-reqs {
+	list-style-type: none;
+}
+
+.pass-reqs li:before {
+	content: "✖ ";
+	font-weight: bold;
+	color: #f33;
+	font-size: 1.25em;
+}
+
+.pass-reqs li.met:before {
+	content: "✔ ";
+	color: #393;
+}
+
+.city-reqs {
+	list-style-type: none;
+}
+
+
+.city-reqs span:before {
+	content: "✖ ";
+	font-weight: bold;
+	color: #f33;
+	font-size: 1.25em;
+}
+
+.city-reqs span.met:before {
+	content: "✔ ";
+	color: #393;
+}
+
+fieldset,
+legend {
+	border:none;
+	margin:0;
+	padding:0;
+}
+
+
+
